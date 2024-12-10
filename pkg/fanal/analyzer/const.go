@@ -29,6 +29,7 @@ const (
 
 	// OS Package
 	TypeApk         Type = "apk"
+	TypeChisel      Type = "chisel"
 	TypeDpkg        Type = "dpkg"
 	TypeDpkgLicense Type = "dpkg-license" // For analyzing licenses
 	TypeRpm         Type = "rpm"
@@ -164,6 +165,7 @@ var (
 		TypeSUSE,
 		TypeUbuntu,
 		TypeApk,
+		TypeChisel,
 		TypeDpkg,
 		TypeDpkgLicense,
 		TypeRpm,
